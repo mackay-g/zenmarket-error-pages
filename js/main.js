@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 });
 
-// var timeleft = 11; //set timer
+var timeleft = 11; //set timer
 function countdown() {
     timeleft--; // take away 1 per run through function
     document
