@@ -1,0 +1,54 @@
+[
+    {
+        "button_copy": "Back to ZenMarket.jp",
+        "redirect_copy": "You will be redirected to the homepage in <span id=\"countdown\">10<\/span> secs"
+    },
+	{ 
+		"title" : "The only sin is ignorance", 
+		"body" : "Christopher Marlowe" ,
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "A man is his own easiest dupe, for what he wishes to be true he generally believes to be true", 
+		"body" : "Demosthenes",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "A lie can travel halfway around the world while the truth is putting on its shoes", 
+		"body" : "Mark Twain",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "Great minds discuss ideas; average minds discuss events; small minds discuss people", 
+		"body" : "Eleanor Roosevelt",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "If you have a garden and a library, you have everything you need", 
+		"body" : "Marcus Tullius Cicero",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "Truth comes out in wine", 
+		"body" : "Pliny the Elder",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "Everything in the universe is within you. Ask all from yourself", 
+		"body" : "Rumi",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	},
+	{
+		"title" : "When I get a little money I buy books; and if any is left I buy food and clothes", 
+		"body" : "Desiderius Erasmus",
+        "image_url" : "https://picsum.photos/300/300",
+        "image_left" : true 
+	}
+]
