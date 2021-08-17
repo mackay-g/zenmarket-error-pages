@@ -2,6 +2,8 @@
 <head>
     <title id="Page Title">Page not found</title>
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&amp;subset=latin,cyrillic"
         rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -9,20 +11,26 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="column">
-                <div class="blue-column">
-                    <h1 id="title">The page must be on vacation...</h1>
+          
+                
+            
+          
+                <div class="column right">
+                    <img id="heroimage" src="https://picsum.photos/600/500">
+                </div>
+
+                <div class="column left">
+                    <h2 id="title">The page must be on vacation...</h2>
                     <p id="body">Would you like to go back to your shopping trip at ZenMarket?</p>
                     <p id="redirect_copy">You will be redirected to the homepage in<span id="countdown">10</span>seconds</p>
-                    <a id="button_copy">Back to ZenMarket</a>
-                    <button>Randomize</button>
+                    
                 </div>
-            </div>
-            <div class="column">
-                <div class="green-column">
-                    <img id="heroimage" src="https://picsum.photos/300/300">
-                </div>
-            </div>
+            
+        </div>
+        <div>
+       
+                   <button id="randomize " class="btn outline">Randomize</button>
+                     <a class="btn" id="button_copy">Back to ZenMarket</a> 
         </div>
     </div>
     <script src="js/main.js"></script>

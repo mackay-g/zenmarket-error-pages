@@ -2,53 +2,53 @@ let dataArray = [
   {
     title: "The only sin is ignorance",
     body: "Christopher Marlowe",
-    image_url: "https://picsum.photos/300/300",
-    image_left: true,
+    image_url: "https://picsum.photos/600/500",
+    image_left: false,
   },
   {
     title:
       "A man is his own easiest dupe, for what he wishes to be true he generally believes to be true",
     body: "Demosthenes",
-    image_url: "https://picsum.photos/300/300",
-    image_left: true,
+    image_url: "https://picsum.photos/600/500",
+    image_left: false,
   },
   {
     title:
       "A lie can travel halfway around the world while the truth is putting on its shoes",
     body: "Mark Twain",
-    image_url: "https://picsum.photos/300/300",
-    image_left: true,
+    image_url: "https://picsum.photos/600/500",
+    image_left: false,
   },
   {
     title:
       "Great minds discuss ideas; average minds discuss events; small minds discuss people",
     body: "Eleanor Roosevelt",
-    image_url: "https://picsum.photos/300/300",
-    image_left: true,
+    image_url: "https://picsum.photos/600/500",
+    image_left: false,
   },
   {
     title: "If you have a garden and a library, you have everything you need",
     body: "Marcus Tullius Cicero",
-    image_url: "https://picsum.photos/300/300",
+    image_url: "https://picsum.photos/600/500",
     image_left: true,
   },
   {
     title: "Truth comes out in wine",
     body: "Pliny the Elder",
-    image_url: "https://picsum.photos/300/300",
+    image_url: "https://picsum.photos/600/500",
     image_left: true,
   },
   {
     title: "Everything in the universe is within you. Ask all from yourself",
     body: "Rumi",
-    image_url: "https://picsum.photos/300/300",
+    image_url: "https://picsum.photos/600/500",
     image_left: true,
   },
   {
     title:
       "When I get a little money I buy books; and if any is left I buy food and clothes",
     body: "Desiderius Erasmus",
-    image_url: "https://picsum.photos/300/300",
+    image_url: "https://picsum.photos/600/500",
     image_left: true,
   },
 ]
@@ -78,7 +78,7 @@ $(document).ready(function () {
   }
 
   function redirect() {
-    window.location = "https://zenmarket.jp/" //redirect to homepage
+    //window.location = "https://zenmarket.jp/" //redirect to homepage
   }
 
   function random404() {
@@ -91,7 +91,18 @@ $(document).ready(function () {
     body.innerText = random.body
     button_copy.innerText = static.button_copy
     redirect_copy.innerHTML = static.redirect_copy
-    heroimage.src = random.image_url
+    var randomNum = Math.ceil(Math.random() * 999999);
+    heroimage.src = random.image_url + "?" + randomNum
+
+// Swap row direction if image left
+//var currentLayout = $(".row").css('flex-direction');
+console.log(random.image_left);
+  if(random.image_left == true){
+    $(".row").css('flex-direction', "row-reverse");
+  } else{
+    $(".row").css('flex-direction', "row");
+  }
+
   }
 
   // Show random quote
