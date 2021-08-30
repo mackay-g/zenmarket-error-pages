@@ -66,6 +66,6 @@ $(document).ready(function () {
     })
     .fail(function () {
       // console.log("No JSON :(")
-      $(".page404 .wrapper").show();
+      $(".page404 .wrapper").fadeIn(600);
     })
 })
