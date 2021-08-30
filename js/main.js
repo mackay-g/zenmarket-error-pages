@@ -38,8 +38,8 @@ $(document).ready(function () {
   }
 
   $("#go-back").click(function (e) {
-    history.back()
-    e.preventDefault()
+    window.history.back();
+    e.preventDefault();
   })
 
   // Load JSON and show random quote
