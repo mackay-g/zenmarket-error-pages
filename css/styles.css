@@ -1,6 +1,6 @@
 /* Reset */
 
-* {
+.page404 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 /* Typography/Styles */
 
-body {
+.page404 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 180%;
@@ -18,21 +18,21 @@ body {
     word-break: break-word;
 }
 
-a,
-button {
+.page404 a,
+.page404 button {
     text-decoration: none;
     color: #46709F;
 }
 
-ul {
+.page404 ul {
     margin-left: 0.7em;
 }
 
-li {
+.page404 li {
     list-style: none;
 }
 
-li:before {
+.page404 li:before {
     content: "· ";
     font-size: 24px;
     vertical-align: middle;
@@ -41,21 +41,21 @@ li:before {
     text-indent: -0.5em;
 }
 
-h1 {
+.page404 h1 {
     font-size: 3em;
     font-weight: 700;
     line-height: 120%;
     color: #3B80B2;
 }
 
-h2 {
+.page404 h2 {
     font-size: 1.5em;
     padding: 20px 0;
     font-weight: 600;
     line-height: 140%;
 }
 
-p {
+.page404 p {
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -63,26 +63,26 @@ p {
 
 /* Layout */
 
-.wrapper {
+.page404 .wrapper {
     max-width: 1270px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.row {
+.page404 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 }
 
-img {
+.page404 img {
     max-width: 570px;
     margin: 0 auto;
     width: 100%;
 }
 
-.column {
+.page404 .column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -92,24 +92,24 @@ img {
     width: 100%;
 }
 
-.center {
+.page404 .center {
     text-align: center;
 }
 
 
 /* Navigation */
 
-#randomize {
+.page404 #randomize {
     display: none;
 }
 
-button img.rotate {
+.page404 button img.rotate {
     -webkit-animation: in 1s;
     animation: in 1s;
     width: 14px;
 }
 
-button:hover .rotate {
+.page404 button:hover .rotate {
     -webkit-animation: out .5s;
     animation: out .5s;
 }
@@ -138,13 +138,13 @@ button:hover .rotate {
     }
 }
 
-button:hover,
-a:hover {
+.page404 button:hover,
+.page404 a:hover {
     color: #3398CF;
 }
 
-button,
-input {
+.page404 button,
+.page404 input {
     border: none;
     background: none;
     font-size: 14px;
@@ -162,7 +162,7 @@ input {
 /* Mobile/Tablet */
 
 @media screen and (max-width: 1023px) {
-    .row {
+    .page404 .row {
         flex-direction: column !important;
     }
 }
