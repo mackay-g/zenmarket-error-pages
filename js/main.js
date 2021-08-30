@@ -3,12 +3,9 @@ $(document).ready(function () {
   let pageLang = $.cookie("zlang") ? $.cookie("zlang") : "en"
   // console.log(pageLang)
 
-  $("#go-back").click(function (e) {
-    e.preventDefault();
-    // window.history.back();
-    console.log("Test");
-    
-  })
+ 
+
+  
 
   function random404(jsonData) {
     // Cycle through data randomly
@@ -54,6 +51,14 @@ $(document).ready(function () {
       jsonData = data
       random404(jsonData)
       console.log("Json Data:", data)
+
+      //Navigate back
+      $("#go-back").click(function (e) {
+        e.preventDefault();
+        window.history.back();
+        console.log("Test");
+        
+      })
 
       // Randomize on click
       $("#randomize").show()
