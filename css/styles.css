@@ -166,4 +166,6 @@
     .page404 .row {
         flex-direction: column !important;
     }
+    .page404 h2{ font-size:1em }
+    .page404 h1{ font-size:2em }
 }
