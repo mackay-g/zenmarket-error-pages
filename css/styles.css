@@ -64,6 +64,7 @@
 /* Layout */
 
 .page404 .wrapper {
+    display:none;
     max-width: 1270px;
     margin: 0 auto;
     padding: 20px;

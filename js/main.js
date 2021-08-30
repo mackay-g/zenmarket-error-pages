@@ -3,10 +3,6 @@ $(document).ready(function () {
   let pageLang = $.cookie("zlang") ? $.cookie("zlang") : "en"
   // console.log(pageLang)
 
- 
-
-  
-
   function random404(jsonData) {
     // Cycle through data randomly
     let random =
@@ -15,9 +11,11 @@ $(document).ready(function () {
       ]
     let static = jsonData.staticData
 
+
     //FadeIn on reload
-    $(".wrapper").fadeOut(0, function () {
-      $(this).fadeIn(800)
+  
+    $(".page404 .wrapper").fadeOut(0, function () {
+      $(this).fadeIn(600)
     })
 
     // Change the HTML STATIC
@@ -56,7 +54,7 @@ $(document).ready(function () {
       $("#go-back").click(function (e) {
         e.preventDefault();
         window.history.back();
-        console.log("Test");
+        //console.log("Test");
         
       })
 
@@ -68,5 +66,6 @@ $(document).ready(function () {
     })
     .fail(function () {
       // console.log("No JSON :(")
+      $(".page404 .wrapper").show();
     })
 })
