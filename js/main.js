@@ -3,6 +3,13 @@ $(document).ready(function () {
   let pageLang = $.cookie("zlang") ? $.cookie("zlang") : "en"
   // console.log(pageLang)
 
+  $("#go-back").click(function (e) {
+    e.preventDefault();
+    // window.history.back();
+    console.log("Test");
+    
+  })
+
   function random404(jsonData) {
     // Cycle through data randomly
     let random =
@@ -37,10 +44,7 @@ $(document).ready(function () {
     }
   }
 
-  $("#go-back").click(function (e) {
-    window.history.back();
-    e.preventDefault();
-  })
+ 
 
   // Load JSON and show random quote
   let jsonFile = "js/data.json"
