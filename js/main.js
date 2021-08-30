@@ -14,9 +14,7 @@ $(document).ready(function () {
 
     //FadeIn on reload
   
-    $(".page404 .wrapper").fadeOut(0, function () {
-      $(this).fadeIn(600)
-    })
+    $(".page404 .wrapper").fadeOut(0);
 
     // Change the HTML STATIC
     $("#pageTitle").html(static.page_title[pageLang])
@@ -48,7 +46,9 @@ $(document).ready(function () {
     .done(function (data) {
       jsonData = data
       random404(jsonData)
-      console.log("Json Data:", data)
+      //console.log("Json Data:", data)
+      $(".page404 .wrapper").fadeIn(600);
+     
 
       //Navigate back
       $("#go-back").click(function (e) {
@@ -62,6 +62,7 @@ $(document).ready(function () {
       $("#randomize").show()
       $("#randomize").click(function () {
         random404(jsonData)
+        $(".page404 .wrapper").fadeIn(600);
       })
     })
     .fail(function () {
