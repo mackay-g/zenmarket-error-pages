@@ -1,64 +1,462 @@
 {
     "staticData": {
         "page_title": {
-            "en": "404 Page Not Found!",
-            "fr": "404 Page non trouvée!",
-            "es": "¡404 Pagina no encontrada!"
-        },
-        "random_copy": {
-            "en": "Randomize Luna",
-            "fr": "Voir une nouvelle Luna Chan",
-            "es": "Ver una nueva Luna Chan"
-        },
-        "link_title": {
-            "en": "In the meantime, here are some helpful links:",
-            "fr": "En attendant, voici quelques liens utiles :",
-            "es": "Mientras tanto, aquí hay algunos enlaces útiles:"
-        },
-        "link_1": {
-            "en": "Go back to the <a href=\"\" id=\"go-back\">previous page.<\/a>",
-            "fr": "Revenez à la page <a href=\"\" id=\"go-back\">précédente.<\/a>",
-            "es": "Regrese a la página <a href=\"\" id=\"go-back\">anterior.<\/a>"
-        },
-        "link_2": {
-            "en": "Let <a href=\"https:\/\/zenmarket.jp\/help.aspx\">customer service<\/a> know what you were looking for.",
-            "fr": "Faites savoir au service client ce que vous recherchez.",
-            "es": "Hágale saber al servicio al cliente lo que está buscando."
-        },
-        "link_3": {
-            "en": "Sign up for a <a href=\"https:\/\/zenmarket.jp\/signup.aspx\">free account<\/a> with ZenMarket (\u00A5300 Off).",
-            "fr": "Créez un compte gratuit avec ZenMarket (300 ¥ de réduction).",
-            "es": "Regístrese para obtener una cuenta gratuita con ZenMarket (¥300 de descuento)."
-        }
+            "en": "Page Not Found!",
+            "ru": "Страница не найдена",
+            "ua": "Сторінку не знайдено",
+            "ja": "お探しのページは見つかりませんでした",
+            "tw": "找不到網頁！",
+            "cn": "无法找到您该网页...",
+            "es": "¡Página No Encontrada!",
+            "fr": "Page non trouvée !",
+            "ms": "Halaman Tidak Ditemui",
+            "vi": "Không tìm thấy trang!",
+            "ar": "الصفحة غير موجودة!",
+            "de": "Die seite konnte nicht gefunden werden!",
+            "id": "Halaman Tidak Ditemukan",
+            "th": "ไม่พบหน้าเว็บไซต์!"
+          },
+          "random_copy": {
+            "en": "Random Luna",
+            "ru": "Показать рандомную Луну",
+            "ua": "Показати рандомну Луну",
+            "ja": "ルナをランダム表示する",
+            "tw": "隨機顯示Luna",
+            "cn": "随机出现的Luna酱",
+            "es": "Random Luna",
+            "fr": "Luna aléatoire",
+            "ms": "Luna rawak",
+            "vi": "Luna ngẫu nhiên",
+            "ar": "لونا أُخرى",
+            "de": "Zufällige Luna",
+            "id": "Lihat yang lain",
+            "th": "สุ่มภาพลูน่า"
+          },
+          "link_title": {
+            "en": "Try these pages instead:",
+            "ru": "Попробуйте перейти сюда:",
+            "ua": "Спробуйте перейти сюди:",
+            "ja": "下記より関連ページをお探しください：",
+            "tw": "請嘗試到以下頁面：",
+            "cn": "点击移步到以下推荐页面:",
+            "es": "En su lugar, prueba estas páginas:",
+            "fr": "Essayez plutôt ces pages",
+            "ms": "Cuba halaman ini pula",
+            "vi": "Hãy thử lại với những trang sau:",
+            "ar": "جرب أحد هذه الصفحات كبديل :",
+            "de": "Probieren Sie stattdessen diese Seiten:",
+            "id": "Coba halaman ini:",
+            "th": "ลองเข้าหน้าเว็บต่อไปนี้แทน:"
+          },
+          "link_1": {
+            "en": "Go back to the <a href=\"\" id=\"go-back\">previous page.</a>",
+            "ru": "Вернуться на <a href=\"\" id=\"go-back\">предыдущую страницу.</a>",
+            "ua": "Повернутися на <a href=\"\" id=\"go-back\">попередню сторінку.</a>",
+            "ja": "前のページに<a href=\"\" id=\"go-back\">戻る</a>",
+            "tw": "回到 <a href=\"\" id=\"go-back\">上一頁。</a>",
+            "cn": "返回到 <a href=\"\" id=\"go-back\">上一页</a>",
+            "es": "Vuelve a la <a href=\"\" id=\"go-back\">página anterior.</a>",
+            "fr": "Retournez à la <a href=\"\" id=\"go-back\">page précédente.</a>",
+            "ms": "Kembali ke <a href=\"\" id=\"go-back\">halaman sebelumnya.</a>",
+            "vi": "Quay lại <a href=\"\" id=\"go-back\">trang trước.</a>",
+            "ar": "الرجوع إلى <a href=\"\" id=\"go-back\">الصفحة السابقة.</a>",
+            "de": "Zurück zur <a href=\"\" id=\"go-back\">vorherigen Seite.</a>",
+            "id": "Kembali ke <a href=\"\" id=\"go-back\">halaman sebelumnya.</a>",
+            "th": "กลับไปที่ <a href=\"\" id=\"go-back\">หน้าเว็บที่แล้ว</a>"
+          },
+          "link_2": {
+            "en": "Let <a href=\"https://zenmarket.jp/help.aspx\">customer service</a> know what you were looking for.",
+            "ru": "Свяжитесь со <a href=\"https://zenmarket.jp/help.aspx\">службой поддержки клиентов</a> и расскажите, что вы искали.",
+            "ua": "Розкажіть <a href=\"https://zenmarket.jp/help.aspx\">службі підтримки клієнтів, </a>що саме ви шукали.",
+            "ja": "カスタマーサポートに<a href=\"https://zenmarket.jp/help.aspx\">問い合わせる</a>",
+            "tw": "<a href=\"https://zenmarket.jp/help.aspx\">聯繫客服人員</a> 為您提供協助。",
+            "cn": "<a href=\"https://zenmarket.jp/help.aspx\">联系客服</a>",
+            "es": "Deja que nuestro <a href=\\\"https://zenmarket.jp/es/help.aspx\\\">servicio al cliente</a> te ayude con lo que buscas.",
+            "fr": "Indiquez <a href=\"https://zenmarket.jp/help.aspx\">au service client</a> ce que vous recherchez.",
+            "ms": "Beritahu <a href=\"https://zenmarket.jp/help.aspx\">khidmat pelanggan</a> produk yang dicari.",
+            "vi": "Cho <a href=\"https://zenmarket.jp/help.aspx\">đội Hỗ trợ khách hàng</a> biết bạn đang cố tìm gì.",
+            "ar": "أعلم <a href=\"https://zenmarket.jp/help.aspx\">خدمة العملاء</a> ما كنت تبحث عنه.",
+            "de": "Erklären Sie unserem <a href=\"https://zenmarket.jp/help.aspx\">Kundenservice</a>, wonach Sie suchen.",
+            "id": "Infokan <a href=\"https://zenmarket.jp/help.aspx\">staff kami</a> tentang produk yang Anda cari.",
+            "th": "แจ้ง <a href=\"https://zenmarket.jp/help.aspx\">ฝ่ายบริการลูกค้า</a> ว่าคุณกำลังตามหาอะไร"
+          },
+          "link_3": {
+            "en": "Sign up for a <a href=\"https://zenmarket.jp/signup.aspx\">free account</a> with ZenMarket and get ¥300 Off.",
+            "ru": "Создайте <a href=\"https://zenmarket.jp/signup.aspx\">бесплатный аккаунт</a> на ZenMarket и получите скидку ¥300 иен .",
+            "ua": "Створіть <a href=\"https://zenmarket.jp/signup.aspx\">безкоштовний акаунт</a> на ZenMarket та отримайте знижку ¥300 єн.",
+            "ja": "無料会員登録で300円クーポンを<a href=\"https://zenmarket.jp/signup.aspx\">ゲットする</a>",
+            "tw": "立即 <a href=\"https://zenmarket.jp/signup.aspx\">註冊免費帳戶</a> ，領取300日元購物禮金。",
+            "cn": "<a href=\"https://zenmarket.jp/signup.aspx\">新用户注册</a> ，领取300日元现金红包",
+            "es": "Regístrate tu <a href=\"https://zenmarket.jp/signup.aspx\">cuenta gratis</a> con ZenMarket y obten ¥300.",
+            "fr": "Créez un <a href=\"https://zenmarket.jp/signup.aspx\">compte gratuit</a> avec ZenMarket et obtenez 300¥.",
+            "ms": "Daftar <a href=\"https://zenmarket.jp/signup.aspx\">akaun percuma</a> dengan ZenMarket dan dapatkan diskaun ¥300",
+            "vi": "Đăng ký <a href=\"https://zenmarket.jp/signup.aspx\">tài khoản miễn phí</a> với ZenMarket và nhận ngay 300 yên khuyến mãi.",
+            "ar": "سجل حسابك <\"a href=\"https://zenmarket.jp/signup.aspx>المجاني</a> مع ZenMarket واحصل على خصم بقيمة 300¥.",
+            "de": "Melden Sie sich <a href=\"https://zenmarket.jp/signup.aspx\">kostenlos</a> bei ZenMarket an und erhalten Sie 300 ¥.",
+            "id": "Yuk<a href=\"https://zenmarket.jp/signup.aspx\">buat akun</a>ZenMarket dan dapatkan bonus saldo ¥300",
+            "th": "สมัคร <a href=\"https://zenmarket.jp/signup.aspx\">เป็นสมาชิก ZenMarket ฟรี</a> พร้อมรับส่วนลด 300 เยน"
+          }
     },
     "dataArray": [
         {
-            "title": {
-                "en": "Oopsie!",
-                "fr": "Oups !",
-                "es": "¡Vaya!"
-            },
-            "body": {
-                "en": "It seems Luna forgot where she stored this page. Hopefully it’ll turn up sometime soon! ",
-                "fr": "Il semble que Luna ait oublié où elle a stocké cette page. Espérons que cela arrivera bientôt!",
-                "es": "Parece que Luna se olvidó de dónde almacenó esta página. ¡Ojalá aparezca pronto!"
-            },
-            "image_url": "img/1.png",
-            "image_left": true
-        },
-        {
-            "title": {
-                "en": "This page is on holiday.",
-                "fr": "Cette page est en vacances.",
-                "es": "Esta página está de vacaciones."
-            },
-            "body": {
-                "en": "But we're not! ZenMarket customer support is available 7 days a week, 365 days a year.",
-                "fr": "Mais nous ne le sommes pas ! Le support client ZenMarket est disponible 7 jours sur 7, 365 jours par an.",
-                "es": "¡Pero no lo somos! El servicio de atención al cliente de ZenMarket está disponible los 7 días de la semana, los 365 días del año."
-            },
-            "image_url": "img/2.png",
-            "image_left": false
-        }
+          "title": {
+            "en": "Oopsie!",
+            "ru": "Упс!",
+            "ua": "Отакої!",
+            "ja": "Oopsie!",
+            "tw": "糟糕！",
+            "cn": "糟糕！",
+            "es": "¡Vaya!",
+            "fr": "Oups !",
+            "ms": "Alamak!",
+            "vi": "Tiếc quá!",
+            "ar": "أوه، لقد وقعنا بالفخ!",
+            "de": "Hoppla!",
+            "id": "Aduh!",
+            "th": "แย่แล้ว!"
+          },
+          "body": {
+            "en": "It seems Luna forgot where she stored this page. Hopefully it’ll turn up sometime soon!",
+            "ru": "Кажется, Луна забыла, куда спрятала эту страницу. Надеемся, она скоро ее найдет!",
+            "ua": "Здається, Луна забула, куди заховала цю сторінку.Сподіваємось, вона швидко її знайде!",
+            "ja": "お探しのページは見つかりませんでした。ルナがページをどこかに仕舞ってしまったようです。",
+            "tw": "找不到此網頁！可能被我們的吉祥物Luna藏起來了！",
+            "cn": "无法找到该网页了...是被Luna酱藏起来了么？",
+            "es": "Parece que Luna se olvidó de dónde almacenó esta página. ¡Ojalá aparezca pronto!",
+            "fr": "On dirait que Luna a oublié où elle a rangé cette page. Espérons qu'elle l'a retrouve rapidement !",
+            "ms": "Nampaknya Luna lupa di mana dia menyimpan halaman ini. Mudah-mudahan ia akan muncul dalam masa terdekat!",
+            "vi": "Có vẻ như Luna đã quên mất chỗ cất trang này ở đâu rồi. Mong rằng nó sẽ sớm xuất hiện!",
+            "ar": "يبدو أن لونا نسيت مكان تخزين هذه الصفحة. نأمل أن تظهر في وقت ما قريبًا!",
+            "de": "Luna hat wohl vergessen, wo sie diese Seite gespeichert hat. Hoffentlich taucht sie bald wieder auf!",
+            "id": "Kayaknya Luna lupa dimana dia menyimpan halaman ini. Semoga bisa cepet ketemu ya",
+            "th": "ลูน่าลืมซะแล้วว่าเอาหน้าเว็บนี้ไปไว้ที่ไหน หวังว่าลูน่าจะหาเจอเร็วๆนี้นะ!"
+          },
+          "image_url": "img/1.png",
+          "image_left": false
+          },
+          {
+          "title": {
+            "en": "This page is on holiday.",
+            "ru": "Эта страничка на каникулах.",
+            "ua": "Ця сторінка на канікулах.",
+            "ja": "ページはバカンス中です",
+            "tw": "此頁面正在渡假中！",
+            "cn": "您搜索的网页正在度假中...",
+            "es": "Esta página está de vacaciones.",
+            "fr": "Cette page est en vacances.",
+            "ms": "Halaman ini sedang cuti.",
+            "vi": "Trang này đang đi nghỉ dưỡng.",
+            "ar": "هذه الصفحة في إجازة.",
+            "de": "Die Seite hat Urlaub.",
+            "id": "Halaman ini lagi liburan.",
+            "th": "หน้าเว็บนี้กำลังหนีเที่ยว"
+          },
+          "body": {
+            "en": "But we're not! ZenMarket customer support is available year round.",
+            "ru": "Но мы - нет! Служба поддержки клиентов ZenMarket работает круглый год.",
+            "ua": "Але ми - ні! Служба підтримки клієнтів ZenMarket працює цілий рік.",
+            "ja": "お探しのページは見つかりませんでした。年中無休のカスタマーサポートが代わりにお助けします。",
+            "tw": "您想要的網頁現在打不開了！但請放心，ZenMarket的客服團隊隨時樂意為您提供協助！",
+            "cn": "但是ZenMarket团队全年无休, 有需要请随时联系我们！",
+            "es": "¡Pero nosotros no! El servicio de atención al cliente de ZenMarket está disponible todo el año.",
+            "fr": "Mais pas nous ! Le service client de ZenMarket est disponible tout au long de l'année.",
+            "ms": "Tapi kami masih ada! Khidmat Pelanggan ZenMarket tersedia sepanjang tahun.",
+            "vi": "Nhưng ZenMarket thì không! Bạn có thể liên lạc với đội Hỗ trợ khách hàng quanh năm.",
+            "ar": "لكننا لسنا كذكلك. خدمة العملاء في ZenMarket متاحة طيلة أيام السنة.",
+            "de": "Aber wir nicht! Der ZenMarket-Kundenservice ist das ganze Jahr über verfügbar.",
+            "id": "Eh tapi staff kami masih kerja kok, customer service ZenMarket selalu tersedia sepanjang tahun.",
+            "th": "แต่ฝ่ายบริการลูกค้า ZenMarket ยังทำงานอยู่นะ"
+          },
+          "image_url": "img/2.png",
+          "image_left": false
+          },
+          {
+          "title": {
+            "en": "Page not found.",
+            "ru": "Страница не найдена",
+            "ua": "Сторінку не знайдено",
+            "ja": "お探しのページは見つかりませんでした",
+            "tw": "找不到此網頁！",
+            "cn": "无法找到该网页...",
+            "es": "Página no encontrada.",
+            "fr": "Page non trouvée.",
+            "ms": "Halaman tidak ditemui.",
+            "vi": "Không tìm thấy trang.",
+            "ar": "لم نستطع العثور على هذه الصفحة.",
+            "de": "Die Seite konnte nicht gefunden werden!",
+            "id": "Halaman tidak ditemukan.",
+            "th": "ไม่พบหน้าเว็บไซต์"
+          },
+          "body": {
+            "en": "But don’t worry! Plenty of tasty Japanese products are still available on ZenMarket.",
+            "ru": "Но не переживайте! На ZenMarket все еще есть полно японских вкусняшек.",
+            "ua": "Але не хвилюйтеся! На ZenMarket все ще є повно японських смаколиків.",
+            "ja": "お探しのページは見つかりませんでしたが、美味しい日本の味をゼンマーケットで見つけてみましょう。",
+            "tw": "但不用擔心！你可以在ZenMarket找到各式各樣的日本商品！",
+            "cn": "没关系，但您可以在ZenMarket找到各种心仪日本好物！",
+            "es": "¡Pero no te preocupes! Muchos productos japoneses todavía están disponibles en ZenMarket.",
+            "fr": "Pas d'inquiétudes ! Plein de délicieux produits japonais sont toujours disponibles sur ZenMarket.",
+            "ms": "Tapi jangan risau! Banyak lagi produk Jepun yang lazat masih terdapat di ZenMarket.",
+            "vi": "Nhưng đừng lo! Rất nhiều sản phẩm cực thú vị từ Nhật Bản hiện vẫn đang có trên ZenMarket.",
+            "ar": "لكن لا تقلق! لا تزال الكثير من المنتجات اليابانية اللذيذة متوفرة في ZenMarket.",
+            "de": "Aber keine Sorge! Viele leckere japanische Produkte sind noch auf ZenMarket erhältlich.",
+            "id": "Tapi jangan khawatir! Masih tersedia banyak produk lainnya di ZenMarket.",
+            "th": "แต่ไม่ต้องห่วง! ยังมีของญี่ปุ่นอร่อยๆ ให้เจอได้ในเว็บ ZenMarket อยู่นะ"
+          },
+          "image_url": "img/3.png",
+          "image_left": true
+          },
+          {
+          "title": {
+            "en": "Shhhh! This page is sleeping...",
+            "ru": "Шшшш! Эта страничка спит...",
+            "ua": "Шшшш! Ця сторінка спить...",
+            "ja": "ページはお昼寝中です",
+            "tw": "噓...此網頁沉睡中...",
+            "cn": "嘘...该网页正在沉睡中...",
+            "es": "¡Shhhh! Esta página está durmiendo...",
+            "fr": "Shut ! Cette page est en train de dormir...",
+            "ms": "Shhhh! Halaman ini sedang tidur...",
+            "vi": "Suỵt! Trang này đang ngủ...",
+            "ar": "خخخخ! ما تزال هذه الصفحة نائمة...",
+            "de": "Pssst! Diese Seite schläft gerade...",
+            "id": "Shhh! Halaman ini udah tidur...",
+            "th": "ชู่ววว! หน้าเว็บนี้กำลังหลับอยู่..."
+          },
+          "body": {
+            "en": "Or the page your were looking for doesn’t exist or has been moved.",
+            "ru": "Возможно, страница, которую вы искали, не существует, или же её переместили.",
+            "ua": "Можливо, сторінка, яку ви шукали, не існує, або ж її прибрали.",
+            "ja": "お探しのページは一時的にアクセスできない状況か、移動もしくは削除された可能性があります。",
+            "tw": "您想找的網頁可能被移動或是被刪除了！",
+            "cn": "您寻找的网页已经搬家或被删除了...",
+            "es": "O la página que buscabas no existe o se ha movido.",
+            "fr": "Ou la page que vous cherchez n'existe pas ou a été déplacée.",
+            "ms": "Atau halaman yang anda cari tidak wujud atau telah dipindahkan.",
+            "vi": "Hoặc trang bạn đang tìm hiện không tồn tại hoặc đã được di chuyển.",
+            "ar": "أو أن الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+            "de": "Oder die gesuchte Seite existiert nicht oder wurde verschoben.",
+            "id": "Kayaknya halaman yang Anda cari sudah expired atau dipindahkan. Cari yang lain yuk.",
+            "th": "หรือหน้าเว็บที่คุณตามหาไม่มีอยู่ หรือถูกย้ายไปที่อื่นแล้ว"
+          },
+          "image_url": "img/4.png",
+          "image_left": true
+          },
+          {
+          "title": {
+            "en": "Like a cherry blossom...",
+            "ru": "Эта страница - как цветение сакуры...",
+            "ua": "Ця сторінка - як цвіт сакури...",
+            "ja": "お探しのページは見つかりませんでした",
+            "tw": "此頁面消失了...",
+            "cn": "该页面已被移除...",
+            "es": "Como una flor de cerezo...",
+            "fr": "Comme une fleur de cerisier...",
+            "ms": "Seperti bunga sakura ...",
+            "vi": "Như mùa hoa anh đào...",
+            "ar": "تماماً مثل تفتح أزهار الربيع",
+            "de": "Wie eine Kirschblüte...",
+            "id": "Seperti bunga sakura...",
+            "th": "เฉกเช่นดอกซากุระ..."
+          },
+          "body": {
+            "en": "There one moment, gone the next. This page doesn’t exist anymore, but we’re still here!",
+            "ru": "В одно мгновение оно было здесь, в следующее его уже нет. Эта страница больше не существует, но мы все еще здесь!",
+            "ua": "В одну мить він тут, в наступну мить його вже немає. Цієї сторінки більше не існує... Але ми все ще тут!",
+            "ja": "さくらの花が儚く散りゆくように、お探しのページも移動もしくは削除された可能性があります。",
+            "tw": "就像美麗的櫻花一樣轉瞬即逝...別擔心！我們的工作人員一直都在這裡隨時為您服務！！",
+            "cn": "如满开的樱花般转瞬即逝...但ZenMarket全体将长久陪伴为您提供最优质的服务！",
+            "es": "Está allí un momento, y luego ya no está. Esta página ya no existe, ¡pero todavía estamos aquí!",
+            "fr": "Là pendant un instant et disparue le suivant. Cette page n'existe plus, mais nous sommes toujours là !",
+            "ms": "Yang mekar dan gugur dengan cepat. Halaman ini sudah gugur tapi masih banyak halaman produk sepertinya!",
+            "vi": "Xuất hiện một lúc, rồi biến mất ngay. Trang này không còn tồn tại nữa, nhưng ZenMarket vẫn ở đây!",
+            "ar": "تراها في لحظة وتختفي في اللحظة التالية. هذه الصفحة غير موجودة، ولكننا ما نزال هنا!",
+            "de": "Einen Moment da, im nächsten weg. Diese Seite existiert nicht mehr, aber wir sind noch da!",
+            "id": "Yang mekar dan gugur dengan cepat. Halaman ini sudah gugur tapi masih banyak halaman produk lainnya!",
+            "th": "มีแบ่งบาน ย่อมมีร่วงโรย  ไม่มีหน้าเว็บที่คุณตามหาอีกต่อไปแล้ว แต่เรายังอยู่นะ!"
+          },
+          "image_url": "img/5.png",
+"image_left": false
+          },
+          {
+          "title": {
+            "en": "Aww... Don't cry.",
+            "ru": "Оооо, не плач.",
+            "ua": "Ой-ой, не плач.",
+            "ja": "お探しのページは見つかりませんでした",
+            "tw": "哎呀！ 無法載入此頁面",
+            "cn": "该页面停止营业...",
+            "es": "Aww... No llores.",
+            "fr": "Ne pleurez pas !",
+            "ms": "Laa... Jangan sedih.",
+            "vi": "Aww... Đừng khóc.",
+            "ar": "أوه، لا تبكي.",
+            "de": "Ohh... kein Grund, zu weinen!",
+            "id": "Yaah... Jangan sedih",
+            "th": "โอ๋... อย่าร้องไห้ไปเลย"
+          },
+          "body": {
+            "en": "This page seems to have been eaten, but there’s plenty of sweet treats left to share!",
+            "ru": "Похоже, эту страничку съели, но осталось еще много японских сладостей!",
+            "ua": "Здається, цю сторінку з'їли, але залишилось ще багато японських солодощів!",
+            "ja": "お探しのページは見つかりませんでしたが、美味しい日本の味をゼンマーケットで見つけてみましょう。",
+            "tw": "不如回到ZenMarket尋找更多日本美食和優質產品吧！",
+            "cn": "不如返回到ZenMarket主页寻找更多日本优质商品吧！",
+            "es": "Parece que se han comido a esta página, ¡pero quedan muchos dulces por compartir!",
+            "fr": "Il semble que cette page ait été mangée, mais il reste encore beaucoup de friandises à partager !",
+            "ms": "Halaman ini nampaknya telah dimakan, tetapi masih ada banyak makanan manis untuk dikongsi!",
+            "vi": "Trang này có vẻ như đã bị ăn mất rồi, nhưng ở đây vẫn còn rất nhiều đồ ngọt để chia sẻ!",
+            "ar": "يبدو أن هذه الصفحة قد تم أكلها، ولكن ما يزال هناك الكثير من الحلويات المتبقية لمشاركتها معك!",
+            "de": "Diese Seite wurde wohl gegessen, aber es gibt noch viele süße Leckereien zu teilen!",
+            "id": "Halaman ini sudah tidak tersedia, tapi masih banyak yang lain! Yuk dilihat!",
+            "th": "หน้าเว็บนี้ถูกลูน่ากินเข้าไปซะแล้ว แต่ลูน่ายังมีขนมเหลือมาแบ่งให้คุณอยู่นะ!"
+          },
+          "image_url": "img/6.png",
+          "image_left": false
+          },
+          {
+          "title": {
+            "en": "Poof! The page is gone.",
+            "ru": "Пуф! Эта страница исчезла!",
+            "ua": "Пуф! Ця сторінка зникла!",
+            "ja": "Poof!",
+            "tw": "哎呀！此頁面打不開了！",
+            "cn": "哎呀！该网页不见了...",
+            "es": "¡Puff! La página se ha ido.",
+            "fr": "Pouf ! Cette page a disparu.",
+            "ms": "Poof! Halaman ini sudah tiada.",
+            "vi": "Phù! Trang này đã biến mất.",
+            "ar": "أوف! اختفت الصفحة.",
+            "de": "Puff! Diese Seite ist weg.",
+            "id": "Simsalabim! ... wah hilang?",
+            "th": "โอมเพี้ยง! หน้าเว็บนี้หายไปแล้ว"
+          },
+          "body": {
+            "en": "Luna’s magic seems to have made this page disappear, but we’re working on getting it back.",
+            "ru": "Магия Луны заставила страницу исчезнуть, но мы работаем над тем, чтобы её вернуть.",
+            "ua": "Магія Луни змусила сторінку зникнути, але ми працюємо над тим, щоб  її повернути.",
+            "ja": "お探しのページは見つかりませんでした。ルナのマジックトリックでページが消えてしまったようです。",
+            "tw": "Luna的魔法讓您想要的頁面暫時無法打開了！我們會盡快進行維修！",
+            "cn": "ZenMarket正在积极修复中...",
+            "es": "La magia de Luna parece haber hecho desaparecer esta página, pero estamos trabajando para recuperarla.",
+            "fr": "Les tours de magie de Luna ont fait disparaître cette page, mais nous travaillons à la restaurer.",
+            "ms": "Majik Luna nampaknya membuat halaman ini hilang, tetapi kami sedang berusaha untuk mengembalikannya.",
+            "vi": "Pháp thuật của Luna dường như đã khiến trang này bay hơi, nhưng cô ấy đang đi tìm lại nó rồi.",
+            "ar": "يبدو أن سحر لونا جعل هذه الصفحة تختفي، لكننا نعمل على استعادتها.",
+            "de": "Lunas scheint diese Seite weggezaubert zu haben, aber wir arbeiten daran, sie zurückzubekommen.",
+            "id": "Wah sulap Luna ga sengaja bikin halaman ini hilang. Semoga dia bisa cepet benerin lagi ya.",
+            "th": "เวทมนตร์ของลูน่าทำให้หน้าเว็บนี้หายไป แต่เรากำลังพยายามเอามันกลับมาอยู่นะ"
+          },
+          "image_url": "img/7.png",
+          "image_left": true
+          },
+          {
+          "title": {
+            "en": "It’s easy to get lost.",
+            "ru": "Заблудится очень легко!",
+            "ua": "Заблукати дуже легко!",
+            "ja": "ページが迷子になりました",
+            "tw": "...在ZenMarket迷路了?",
+            "cn": "...在ZenMarket迷路了?",
+            "es": "Es fácil perderse.",
+            "fr": "Il est facile de se perdre.",
+            "ms": "Sangat mudah tersesat.",
+            "vi": "Thật dễ để đi lạc.",
+            "ar": "الضياع، ولا أسهل...",
+            "de": "Jeder verläuft sich mal...",
+            "id": "Kok bisa nyasar kemari?",
+            "th": "คนเราหลงทางกันเป็นเรื่องปกติ"
+          },
+          "body": {
+            "en": "It’s a big ZenMarket out there! Hopefully Luna can help you find what you were looking for.",
+            "ru": "ZenMarket очень большой! Надеемся, что Луна поможет вам найти то, что вы искали.",
+            "ua": "ZenMarket дуже великий! Сподіваємось, що Луна допоможе вам знайти те, що ви шукали.",
+            "ja": "お探しのページは見つかりませんでした。ルナが一緒にゼンマーケットの中を探すお手伝いをします。",
+            "tw": "找不到您想要的頁面？沒關係！我們的吉祥物Luna可以幫您一起尋找！",
+            "cn": "找不到您想要的页面？没关系，Luna酱帮您一起寻找！",
+            "es": "¡Hay un gran ZenMarket ahí fuera! Espero que Luna pueda ayudarte a encontrar lo que estabas buscando.",
+            "fr": "Le monde de ZenMarket est très grand ! Avec un peu de chance, Luna pourra vous aider à trouver ce que vous cherchez.",
+            "ms": "Besar dunia ZenMarket di luar sana! Semoga Luna dapat membantu anda mencari apa yang diinginkan.",
+            "vi": "ZenMarket vô cùng rộng lớn! Mong là Luna có thể giúp bạn tìm kiếm chỗ bạn muốn đến.",
+            "ar": "موقع ZenMarket كبير جداً! نأمل أن تستطيع لونا مساعدتك على إيجاد ما كنت تبحث عنه.",
+            "de": "Es ist ein großer ZenMarket da draußen! Hoffentlich kann Luna dabei helfen, das Gesuchte zu finden.",
+            "id": "Website ZenMarket memang besar jadi gampang kesasar. Silakan kirim pesan ke staff kami kalau bingung ya.",
+            "th": "เราเข้าใจว่า ZenMarket มีหน้าเว็บมากมายจนคุณงง! หวังว่าลูน่าจะช่วยนำทางคุณไปถูกที่นะ"
+          },
+          "image_url": "img/8.png",
+          "image_left": false
+          },
+          {
+          "title": {
+            "en": "Boo! This page is gone.",
+            "ru": "Бу! Страница пропала!",
+            "ua": "Бу! Сторінка пропала!",
+            "ja": "Boo!",
+            "tw": "哇！此頁面不見了！",
+            "cn": "Boo！该页面不见了...",
+            "es": "¡Boo! Esta página se ha ido.",
+            "fr": "Bouh ! Cette page a disparu.",
+            "ms": "Boo! Halaman ini tiada.",
+            "vi": "Òa! Trang này đã biến mất.",
+            "ar": "بوو! هذه الصفحة غير موجودة.",
+            "de": "Buh! Diese Seite ist weg.",
+            "id": "Lah, halaman ini kabur entah kemana",
+            "th": "วะฮ่าๆ! หน้าเว็บนี้หายไปแล้ว"
+          },
+          "body": {
+            "en": "Luna’s Halloween costume was so good this year it seems to have scared this page away.",
+            "ru": "У Луны в этом году такой крутой костюм на Хэллоуин, что он, похоже, отпугнул эту страничку.",
+            "ua": "В Луни цього року такий крутий костюм на Хелловін, що він, схоже, налякав цю сторінку.",
+            "ja": "お探しのページは見つかりませんでした。ルナのハロウィンコスチュームがページを怖がらせてしまったようです。",
+            "tw": "Luna的萬聖節服裝可能把您想要的頁面嚇跑了！不用怕！我們的工作人員隨時樂意為您提供協助！",
+            "cn": "Luna万圣节装扮吓跑了该页面！别担心，ZenMarket正在积极修复中！",
+            "es": "El disfraz de Halloween de Luna fue tan bueno este año que parece haber asustado a esta página.",
+            "fr": "Le costume d'Halloween de Luna était si convaincant cetet année qu'il a effrayé cette page.",
+            "ms": "Kostum Halloween Luna terlalu hebat tahun ini hingga telah menakutkan halaman ini.",
+            "vi": "Trang phục Halloween của Luna đáng sợ quá, đã dọa trang này chạy đi mất rồi.",
+            "ar": "كان زي لونا للهالوين جيد جداً هذا العام لدرجة أنه أخاف هذه الصفحة فهربت بعيداً.",
+            "de": "Lunas Halloween-Kostüm war dieses Jahr so gut, dass es diese Seite verschreckt hat.",
+            "id": "Halaman ini kabur ketakutan ngeliat Luna pakai kostum Halloween, udah ga mau balik dia.",
+            "th": "ชุดฮัลโลวีนของลูน่าสมจริงซะจนทำให้หน้าเว็บนี้กลัวจนหนีไปแล้ว"
+          },
+          "image_url": "img/9.png",
+          "image_left": true
+          },
+          {
+          "title": {
+            "en": "Whoopsie!",
+            "ru": "Упс!",
+            "ua": "Отакої!",
+            "ja": "Whoopsie!",
+            "tw": "哎呀！此頁面出現錯誤！",
+            "cn": "哎呀！该页面出错了...",
+            "es": "¡Oopsie!",
+            "fr": "Oups !",
+            "ms": "Alamak!",
+            "vi": "Tiếc quá!",
+            "ar": "ووبسي!",
+            "de": "Hoppla!",
+            "id": "Waduh!",
+            "th": "อุ๊ปส์!"
+          },
+          "body": {
+            "en": "This page along with Luna seems to have dissapeared into a big bowl of tasty Ramen!",
+            "ru": "Эта страничка, вместе с Луной, ищезли в огромной миске вкусного рамена!",
+            "ua": "Ця сторінка, разом з Луною, зникли у велетенській мисці смачного рамену!",
+            "ja": "お探しのページは見つかりませんでした。ルナの大きなラーメン鉢にページが入り込んでしまったようです。",
+            "tw": "您想找的頁面不在這裡喔！馬上回到ZenMarket瀏覽日本的美食和商品吧！",
+            "cn": "您寻找的页面不在这里哦！不如返回到ZenMarket主页寻找更多日本优质商品吧！",
+            "es": "¡Esta página junto con Luna parece haber desaparecido en un gran plato de sabroso Ramen!",
+            "fr": "Cette page a disparu avecLuna dans un grand bol de délicieux ramen !",
+            "ms": "Halaman ini bersama dengan Luna nampaknya telah hilang menjadi semangkuk besar Ramen yang enak!",
+            "vi": "Trang này cùng với Luna có vẻ như đã biến mất vào một tô mì Ramen ngon lành rồi!",
+            "ar": "يبدو أن هذه الصفحة هي ولونا قد اختفوا معاً في وعاء كبير من الرامن اللذيذ!",
+            "de": "Diese Seite scheint zusammen mit Luna in einer großen, leckeren Schüssel Ramen verschwunden zu sein!",
+            "id": "Halaman ini kayaknya udah hanyut kedalam ramen bareng sama Luna",
+            "th": "หน้าเว็บนี้กับลูน่าหายไปในชามราเมงแสนอร่อยแล้ว!"
+          },
+          "image_url": "img/10.png",
+          "image_left": true
+          }
     ]
 }

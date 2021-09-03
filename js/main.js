@@ -3,17 +3,17 @@ $(document).ready(function () {
   let pageLang = $.cookie("zlang") ? $.cookie("zlang") : "en"
   // console.log(pageLang)
 
+  
   function random404(jsonData) {
     // Cycle through data randomly
     let random =
       jsonData.dataArray[
-        Math.floor(Math.random() * Object.keys(jsonData.dataArray).length)
+      Math.floor(Math.random() * Object.keys(jsonData.dataArray).length)
       ]
     let static = jsonData.staticData
 
-
     //FadeIn on reload
-  
+
     $(".page404 .wrapper").fadeOut(0);
 
     // Change the HTML STATIC
@@ -31,13 +31,16 @@ $(document).ready(function () {
 
     // Swap row direction if image left
     if (random.image_left == true) {
-      $(".row").css("flex-direction", "row-reverse")
-    } else {
       $(".row").css("flex-direction", "row")
+    } else {
+      $(".row").css("flex-direction", "row-reverse")
     }
+
   }
 
- 
+
+
+
 
   // Load JSON and show random quote
   let jsonFile = "js/data.json"
@@ -48,14 +51,24 @@ $(document).ready(function () {
       random404(jsonData)
       //console.log("Json Data:", data)
       $(".page404 .wrapper").fadeIn(600);
-     
+      
+      
+    $('#language').change(function() {    
+      pageLang = this.value   
+      console.log(this.value);
+      random404(jsonData)
+        $(".page404 .wrapper").fadeIn(600);
+    });    
+
+
 
       //Navigate back
       $("#go-back").click(function (e) {
         e.preventDefault();
         window.history.back();
         //console.log("Test");
-        
+
+
       })
 
       // Randomize on click
