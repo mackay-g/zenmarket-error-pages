@@ -1,8 +1,6 @@
 $(document).ready(function () {
   // Set Language Cookie
   let pageLang = $.cookie("zlang") ? $.cookie("zlang") : "en"
-  // console.log(pageLang)
-
   
   function random404(jsonData) {
     // Cycle through data randomly
@@ -52,23 +50,21 @@ $(document).ready(function () {
       //console.log("Json Data:", data)
       $(".page404 .wrapper").fadeIn(600);
       
+      $('#language').val(pageLang);
       
     $('#language').change(function() {    
+      $.cookie("zlang",this.value);
       pageLang = this.value   
-      console.log(this.value);
+      //console.log(this.value);
       random404(jsonData)
         $(".page404 .wrapper").fadeIn(600);
     });    
-
-
 
       //Navigate back
       $("#go-back").click(function (e) {
         e.preventDefault();
         window.history.back();
         //console.log("Test");
-
-
       })
 
       // Randomize on click
