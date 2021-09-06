@@ -6,7 +6,7 @@
             "ua": "Сторінку не знайдено",
             "ja": "お探しのページは見つかりませんでした",
             "tw": "找不到網頁！",
-            "cn": "无法找到您该网页...",
+            "cn": "无法找到该网页...",
             "es": "¡Página No Encontrada!",
             "fr": "Page non trouvée !",
             "ms": "Halaman Tidak Ditemui",
@@ -14,7 +14,8 @@
             "ar": "الصفحة غير موجودة!",
             "de": "Die seite konnte nicht gefunden werden!",
             "id": "Halaman Tidak Ditemukan",
-            "th": "ไม่พบหน้าเว็บไซต์!"
+            "th": "ไม่พบหน้าเว็บไซต์!",
+            "it": "Pagina non trovata!"
           },
           "random_copy": {
             "en": "Random Luna",
@@ -30,7 +31,8 @@
             "ar": "لونا أُخرى",
             "de": "Zufällige Luna",
             "id": "Lihat yang lain",
-            "th": "สุ่มภาพลูน่า"
+            "th": "สุ่มภาพลูน่า",
+            "it": "Luna a random"
           },
           "link_title": {
             "en": "Try these pages instead:",
@@ -46,7 +48,8 @@
             "ar": "جرب أحد هذه الصفحات كبديل :",
             "de": "Probieren Sie stattdessen diese Seiten:",
             "id": "Coba halaman ini:",
-            "th": "ลองเข้าหน้าเว็บต่อไปนี้แทน:"
+            "th": "ลองเข้าหน้าเว็บต่อไปนี้แทน:",
+            "it": "Prova una di queste pagine invece:"
           },
           "link_1": {
             "en": "Go back to the <a href=\"\" id=\"go-back\">previous page.</a>",
@@ -62,7 +65,8 @@
             "ar": "الرجوع إلى <a href=\"\" id=\"go-back\">الصفحة السابقة.</a>",
             "de": "Zurück zur <a href=\"\" id=\"go-back\">vorherigen Seite.</a>",
             "id": "Kembali ke <a href=\"\" id=\"go-back\">halaman sebelumnya.</a>",
-            "th": "กลับไปที่ <a href=\"\" id=\"go-back\">หน้าเว็บที่แล้ว</a>"
+            "th": "กลับไปที่ <a href=\"\" id=\"go-back\">หน้าเว็บที่แล้ว</a>",
+            "it": "Torna alla <a href=\"\" id=\"go-back\">pagina precedente.</a>"
           },
           "link_2": {
             "en": "Let <a href=\"https://zenmarket.jp/help.aspx\">customer service</a> know what you were looking for.",
@@ -78,7 +82,8 @@
             "ar": "أعلم <a href=\"https://zenmarket.jp/help.aspx\">خدمة العملاء</a> ما كنت تبحث عنه.",
             "de": "Erklären Sie unserem <a href=\"https://zenmarket.jp/help.aspx\">Kundenservice</a>, wonach Sie suchen.",
             "id": "Infokan <a href=\"https://zenmarket.jp/help.aspx\">staff kami</a> tentang produk yang Anda cari.",
-            "th": "แจ้ง <a href=\"https://zenmarket.jp/help.aspx\">ฝ่ายบริการลูกค้า</a> ว่าคุณกำลังตามหาอะไร"
+            "th": "แจ้ง <a href=\"https://zenmarket.jp/help.aspx\">ฝ่ายบริการลูกค้า</a> ว่าคุณกำลังตามหาอะไร",
+            "it": "Fai sapere al nostro <a href=\"https://zenmarket.jp/help.aspx\">servizio clienti</a> cosa stavi cercando."
           },
           "link_3": {
             "en": "Sign up for a <a href=\"https://zenmarket.jp/signup.aspx\">free account</a> with ZenMarket and get ¥300 Off.",
@@ -94,7 +99,8 @@
             "ar": "سجل حسابك <a href=\"https://zenmarket.jp/signup.aspx\">المجاني</a> مع ZenMarket واحصل على خصم بقيمة 300¥.",
             "de": "Melden Sie sich <a href=\"https://zenmarket.jp/signup.aspx\">kostenlos</a> bei ZenMarket an und erhalten Sie 300 ¥.",
             "id": "Yuk<a href=\"https://zenmarket.jp/signup.aspx\">buat akun</a>ZenMarket dan dapatkan bonus saldo ¥300",
-            "th": "สมัคร <a href=\"https://zenmarket.jp/signup.aspx\">เป็นสมาชิก ZenMarket ฟรี</a> พร้อมรับส่วนลด 300 เยน"
+            "th": "สมัคร <a href=\"https://zenmarket.jp/signup.aspx\">เป็นสมาชิก ZenMarket ฟรี</a> พร้อมรับส่วนลด 300 เยน",
+            "it": "Registra un<a href=\"https://zenmarket.jp/signup.aspx\">account gratuito</a> su ZenMarket e ricevi 300¥ di sconto."
           }
     },
     "dataArray": [
@@ -113,7 +119,8 @@
             "ar": "أوه، لقد وقعنا بالفخ!",
             "de": "Hoppla!",
             "id": "Aduh!",
-            "th": "แย่แล้ว!"
+            "th": "แย่แล้ว!",
+            "it": "Oops!"
           },
           "body": {
             "en": "It seems Luna forgot where she stored this page. Hopefully it’ll turn up sometime soon!",
@@ -129,7 +136,8 @@
             "ar": "يبدو أن لونا نسيت مكان تخزين هذه الصفحة. نأمل أن تظهر في وقت ما قريبًا!",
             "de": "Luna hat wohl vergessen, wo sie diese Seite gespeichert hat. Hoffentlich taucht sie bald wieder auf!",
             "id": "Kayaknya Luna lupa dimana dia menyimpan halaman ini. Semoga bisa cepet ketemu ya",
-            "th": "ลูน่าลืมซะแล้วว่าเอาหน้าเว็บนี้ไปไว้ที่ไหน หวังว่าลูน่าจะหาเจอเร็วๆนี้นะ!"
+            "th": "ลูน่าลืมซะแล้วว่าเอาหน้าเว็บนี้ไปไว้ที่ไหน หวังว่าลูน่าจะหาเจอเร็วๆนี้นะ!",
+            "it": "Sembra che Luna abbia dimenticato dove ha messo questa pagina. Speriamo salti fuori presto!"
           },
           "image_url": "img/1.png",
           "image_left": false
@@ -149,7 +157,8 @@
             "ar": "هذه الصفحة في إجازة.",
             "de": "Die Seite hat Urlaub.",
             "id": "Halaman ini lagi liburan.",
-            "th": "หน้าเว็บนี้กำลังหนีเที่ยว"
+            "th": "หน้าเว็บนี้กำลังหนีเที่ยว",
+            "it": "Questa pagina é in vacanza."
           },
           "body": {
             "en": "But we're not! ZenMarket customer support is available year round.",
@@ -165,7 +174,8 @@
             "ar": "لكننا لسنا كذلك. خدمة العملاء في ZenMarket متاحة طيلة أيام السنة.",
             "de": "Aber wir nicht! Der ZenMarket-Kundenservice ist das ganze Jahr über verfügbar.",
             "id": "Eh tapi staff kami masih kerja kok, customer service ZenMarket selalu tersedia sepanjang tahun.",
-            "th": "แต่ฝ่ายบริการลูกค้า ZenMarket ยังทำงานอยู่นะ"
+            "th": "แต่ฝ่ายบริการลูกค้า ZenMarket ยังทำงานอยู่นะ",
+            "it": "Ma non noi! Il servizio clienti di ZenMarket è diponibile tutto l'anno."
           },
           "image_url": "img/2.png",
           "image_left": false
@@ -185,7 +195,8 @@
             "ar": "لم نستطع العثور على هذه الصفحة.",
             "de": "Die Seite konnte nicht gefunden werden!",
             "id": "Halaman tidak ditemukan.",
-            "th": "ไม่พบหน้าเว็บไซต์"
+            "th": "ไม่พบหน้าเว็บไซต์",
+            "it": "Pagina non trovata."
           },
           "body": {
             "en": "But don’t worry! Plenty of tasty Japanese products are still available on ZenMarket.",
@@ -201,7 +212,8 @@
             "ar": "لكن لا تقلق! لا تزال الكثير من المنتجات اليابانية اللذيذة متوفرة في ZenMarket.",
             "de": "Aber keine Sorge! Viele leckere japanische Produkte sind noch auf ZenMarket erhältlich.",
             "id": "Tapi jangan khawatir! Masih tersedia banyak produk lainnya di ZenMarket.",
-            "th": "แต่ไม่ต้องห่วง! ยังมีของญี่ปุ่นอร่อยๆ ให้เจอได้ในเว็บ ZenMarket อยู่นะ"
+            "th": "แต่ไม่ต้องห่วง! ยังมีของญี่ปุ่นอร่อยๆ ให้เจอได้ในเว็บ ZenMarket อยู่นะ",
+            "it": "Ma non disperare! Sono ancora disponibili un sacco di gustosi prodotti giapponesi su ZenMarket!"
           },
           "image_url": "img/3.png",
           "image_left": true
@@ -221,7 +233,8 @@
             "ar": "خخخخ! ما تزال هذه الصفحة نائمة...",
             "de": "Pssst! Diese Seite schläft gerade...",
             "id": "Shhh! Halaman ini udah tidur...",
-            "th": "ชู่ววว! หน้าเว็บนี้กำลังหลับอยู่..."
+            "th": "ชู่ววว! หน้าเว็บนี้กำลังหลับอยู่...",
+            "it": "Shhhh! Questa pagina sta dormendo..."
           },
           "body": {
             "en": "Or the page your were looking for doesn’t exist or has been moved.",
@@ -237,7 +250,8 @@
             "ar": "أو أن الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
             "de": "Oder die gesuchte Seite existiert nicht oder wurde verschoben.",
             "id": "Kayaknya halaman yang Anda cari sudah expired atau dipindahkan. Cari yang lain yuk.",
-            "th": "หรือหน้าเว็บที่คุณตามหาไม่มีอยู่ หรือถูกย้ายไปที่อื่นแล้ว"
+            "th": "หรือหน้าเว็บที่คุณตามหาไม่มีอยู่ หรือถูกย้ายไปที่อื่นแล้ว",
+            "it": "Oppure la pagina che stavi cercando non esiste più o è stata spostata."
           },
           "image_url": "img/4.png",
           "image_left": true
@@ -257,7 +271,8 @@
             "ar": "تماماً مثل تفتح أزهار الربيع",
             "de": "Wie eine Kirschblüte...",
             "id": "Seperti bunga sakura...",
-            "th": "เฉกเช่นดอกซากุระ..."
+            "th": "เฉกเช่นดอกซากุระ...",
+            "it": "Come fiori di ciliegio..."
           },
           "body": {
             "en": "There one moment, gone the next. This page doesn’t exist anymore, but we’re still here!",
@@ -273,7 +288,8 @@
             "ar": "تراها في لحظة وتختفي في اللحظة التالية. هذه الصفحة غير موجودة، ولكننا ما نزال هنا!",
             "de": "Einen Moment da, im nächsten weg. Diese Seite existiert nicht mehr, aber wir sind noch da!",
             "id": "Yang mekar dan gugur dengan cepat. Halaman ini sudah gugur tapi masih banyak halaman produk lainnya!",
-            "th": "มีแบ่งบาน ย่อมมีร่วงโรย  ไม่มีหน้าเว็บที่คุณตามหาอีกต่อไปแล้ว แต่เรายังอยู่นะ!"
+            "th": "มีแบ่งบาน ย่อมมีร่วงโรย  ไม่มีหน้าเว็บที่คุณตามหาอีกต่อไปแล้ว แต่เรายังอยู่นะ!",
+            "it": "Un momento ci sono, poi non più. Questa pagina non esiste più, ma noi siamo ancora qui!"
           },
           "image_url": "img/5.png",
 "image_left": false
@@ -293,7 +309,8 @@
             "ar": "أوه، لا تبكي.",
             "de": "Ohh... kein Grund, zu weinen!",
             "id": "Yaah... Jangan sedih",
-            "th": "โอ๋... อย่าร้องไห้ไปเลย"
+            "th": "โอ๋... อย่าร้องไห้ไปเลย",
+            "it": "Su, non piangere!"
           },
           "body": {
             "en": "This page seems to have been eaten, but there’s plenty of sweet treats left to share!",
@@ -309,7 +326,8 @@
             "ar": "يبدو أن هذه الصفحة قد تم أكلها، ولكن ما يزال هناك الكثير من الحلويات المتبقية لمشاركتها معك!",
             "de": "Diese Seite wurde wohl gegessen, aber es gibt noch viele süße Leckereien zu teilen!",
             "id": "Halaman ini sudah tidak tersedia, tapi masih banyak yang lain! Yuk dilihat!",
-            "th": "หน้าเว็บนี้ถูกลูน่ากินเข้าไปซะแล้ว แต่ลูน่ายังมีขนมเหลือมาแบ่งให้คุณอยู่นะ!"
+            "th": "หน้าเว็บนี้ถูกลูน่ากินเข้าไปซะแล้ว แต่ลูน่ายังมีขนมเหลือมาแบ่งให้คุณอยู่นะ!",
+            "it": "Sembra che questa pagina sia stata mangiata, ma ci sono ancora un sacco di offerte succulente da condividere!"
           },
           "image_url": "img/6.png",
           "image_left": false
@@ -329,7 +347,8 @@
             "ar": "أوف! اختفت الصفحة.",
             "de": "Puff! Diese Seite ist weg.",
             "id": "Simsalabim! ... wah hilang?",
-            "th": "โอมเพี้ยง! หน้าเว็บนี้หายไปแล้ว"
+            "th": "โอมเพี้ยง! หน้าเว็บนี้หายไปแล้ว",
+            "it": "Puff! Questa pagina è sparita!"
           },
           "body": {
             "en": "Luna’s magic seems to have made this page disappear, but we’re working on getting it back.",
@@ -345,7 +364,8 @@
             "ar": "يبدو أن سحر لونا جعل هذه الصفحة تختفي، لكننا نعمل على استعادتها.",
             "de": "Lunas scheint diese Seite weggezaubert zu haben, aber wir arbeiten daran, sie zurückzubekommen.",
             "id": "Wah sulap Luna ga sengaja bikin halaman ini hilang. Semoga dia bisa cepet benerin lagi ya.",
-            "th": "เวทมนตร์ของลูน่าทำให้หน้าเว็บนี้หายไป แต่เรากำลังพยายามเอามันกลับมาอยู่นะ"
+            "th": "เวทมนตร์ของลูน่าทำให้หน้าเว็บนี้หายไป แต่เรากำลังพยายามเอามันกลับมาอยู่นะ",
+            "it": "Sembra proprio che la magia di Luna abbia fatto sparire questa pagina, ma stiamo lavorando per riportala indietro."
           },
           "image_url": "img/7.png",
           "image_left": true
@@ -365,7 +385,8 @@
             "ar": "الضياع، ولا أسهل...",
             "de": "Jeder verläuft sich mal...",
             "id": "Kok bisa nyasar kemari?",
-            "th": "คนเราหลงทางกันเป็นเรื่องปกติ"
+            "th": "คนเราหลงทางกันเป็นเรื่องปกติ",
+            "it": "È facile perdersi."
           },
           "body": {
             "en": "It’s a big ZenMarket out there! Hopefully Luna can help you find what you were looking for.",
@@ -381,7 +402,8 @@
             "ar": "موقع ZenMarket كبير جداً! نأمل أن تستطيع لونا مساعدتك على إيجاد ما كنت تبحث عنه.",
             "de": "Es ist ein großer ZenMarket da draußen! Hoffentlich kann Luna dabei helfen, das Gesuchte zu finden.",
             "id": "Website ZenMarket memang besar jadi gampang kesasar. Silakan kirim pesan ke staff kami kalau bingung ya.",
-            "th": "เราเข้าใจว่า ZenMarket มีหน้าเว็บมากมายจนคุณงง! หวังว่าลูน่าจะช่วยนำทางคุณไปถูกที่นะ"
+            "th": "เราเข้าใจว่า ZenMarket มีหน้าเว็บมากมายจนคุณงง! หวังว่าลูน่าจะช่วยนำทางคุณไปถูกที่นะ",
+            "it": "Il mondo di ZenMarket è proprio immenso! Fortunatamente c'è Luna ad aiutarti a trovare quello che stai cercando."
           },
           "image_url": "img/8.png",
           "image_left": false
@@ -401,7 +423,8 @@
             "ar": "بوو! هذه الصفحة غير موجودة.",
             "de": "Buh! Diese Seite ist weg.",
             "id": "Lah, halaman ini kabur entah kemana",
-            "th": "วะฮ่าๆ! หน้าเว็บนี้หายไปแล้ว"
+            "th": "วะฮ่าๆ! หน้าเว็บนี้หายไปแล้ว",
+            "it": "Bù! Questa pagina è sparita!"
           },
           "body": {
             "en": "Luna’s Halloween costume was so good this year it seems to have scared this page away.",
@@ -417,7 +440,8 @@
             "ar": "كان زي لونا للهالوين جيد جداً هذا العام لدرجة أنه أخاف هذه الصفحة فهربت بعيداً.",
             "de": "Lunas Halloween-Kostüm war dieses Jahr so gut, dass es diese Seite verschreckt hat.",
             "id": "Halaman ini kabur ketakutan ngeliat Luna pakai kostum Halloween, udah ga mau balik dia.",
-            "th": "ชุดฮัลโลวีนของลูน่าสมจริงซะจนทำให้หน้าเว็บนี้กลัวจนหนีไปแล้ว"
+            "th": "ชุดฮัลโลวีนของลูน่าสมจริงซะจนทำให้หน้าเว็บนี้กลัวจนหนีไปแล้ว",
+            "it": "Il custume di Halloween di Luna è così terrificante quest'anno, che ha messo in fuga questa pagina."
           },
           "image_url": "img/9.png",
           "image_left": true
@@ -437,7 +461,8 @@
             "ar": "ووبسي!",
             "de": "Hoppla!",
             "id": "Waduh!",
-            "th": "อุ๊ปส์!"
+            "th": "อุ๊ปส์!",
+            "it": "Ooops!"
           },
           "body": {
             "en": "This page along with Luna seems to have dissapeared into a big bowl of tasty Ramen!",
@@ -453,7 +478,8 @@
             "ar": "يبدو أن هذه الصفحة هي ولونا قد اختفوا معاً في وعاء كبير من الرامن اللذيذ!",
             "de": "Diese Seite scheint zusammen mit Luna in einer großen, leckeren Schüssel Ramen verschwunden zu sein!",
             "id": "Halaman ini kayaknya udah hanyut kedalam ramen bareng sama Luna",
-            "th": "หน้าเว็บนี้กับลูน่าหายไปในชามราเมงแสนอร่อยแล้ว!"
+            "th": "หน้าเว็บนี้กับลูน่าหายไปในชามราเมงแสนอร่อยแล้ว!",
+            "it": "Sembra proprio che questa pagina sia sparita con Luna, in una grossa scodella di delizioso ramen!"
           },
           "image_url": "img/10.png",
           "image_left": true
