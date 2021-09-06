@@ -10,12 +10,11 @@ $(document).ready(function () {
       ]
     let static = jsonData.staticData
 
-    //FadeIn on reload
-
+    //FadeOut quickly on reload
     $(".page404 .wrapper").fadeOut(0);
 
     // Change the HTML STATIC
-    $("#pageTitle").html(static.page_title[pageLang])
+    $("title").html(static.page_title[pageLang])
     $("#randomCopy").html(static.random_copy[pageLang])
     $("#linkTitle").html(static.link_title[pageLang])
     $("#link1").html(static.link_1[pageLang])
@@ -35,10 +34,6 @@ $(document).ready(function () {
     }
 
   }
-
-
-
-
 
   // Load JSON and show random quote
   let jsonFile = "js/data.json"

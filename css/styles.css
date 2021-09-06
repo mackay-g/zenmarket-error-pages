@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 /* Typography/Styles */
 
 .page404 {
@@ -43,7 +42,7 @@
 
 .page404 h1 {
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 120%;
     color: #3B80B2;
 }
@@ -59,7 +58,6 @@
     margin-bottom: 20px;
     line-height: 140%;
 }
-
 
 /* Layout */
 
@@ -152,13 +150,11 @@
     cursor: pointer;
 }
 
-
 /* button:hover .glyphicon {
     color: #3398CF;
     transition: 0.5s;
     transform: rotateZ(360deg);
 } */
-
 
 /* Mobile/Tablet */
 

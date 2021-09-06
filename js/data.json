@@ -12,7 +12,7 @@
             "ms": "Halaman Tidak Ditemui",
             "vi": "Không tìm thấy trang!",
             "ar": "الصفحة غير موجودة!",
-            "de": "Die seite konnte nicht gefunden werden!",
+            "de": "Die Seite konnte nicht gefunden werden!",
             "id": "Halaman Tidak Ditemukan",
             "th": "ไม่พบหน้าเว็บไซต์!",
             "it": "Pagina non trovata!"
@@ -49,7 +49,7 @@
             "de": "Probieren Sie stattdessen diese Seiten:",
             "id": "Coba halaman ini:",
             "th": "ลองเข้าหน้าเว็บต่อไปนี้แทน:",
-            "it": "Prova una di queste pagine invece:"
+            "it": "Prova piuttosto una di queste altre pagine:"
           },
           "link_1": {
             "en": "Go back to the <a href=\"\" id=\"go-back\">previous page.</a>",
@@ -100,7 +100,7 @@
             "de": "Melden Sie sich <a href=\"https://zenmarket.jp/signup.aspx\">kostenlos</a> bei ZenMarket an und erhalten Sie 300 ¥.",
             "id": "Yuk<a href=\"https://zenmarket.jp/signup.aspx\">buat akun</a>ZenMarket dan dapatkan bonus saldo ¥300",
             "th": "สมัคร <a href=\"https://zenmarket.jp/signup.aspx\">เป็นสมาชิก ZenMarket ฟรี</a> พร้อมรับส่วนลด 300 เยน",
-            "it": "Registra un<a href=\"https://zenmarket.jp/signup.aspx\">account gratuito</a> su ZenMarket e ricevi 300¥ di sconto."
+            "it": "Registra un <a href=\"https://zenmarket.jp/signup.aspx\">account gratuito</a> su ZenMarket e ricevi 300¥ di sconto."
           }
     },
     "dataArray": [
@@ -175,7 +175,7 @@
             "de": "Aber wir nicht! Der ZenMarket-Kundenservice ist das ganze Jahr über verfügbar.",
             "id": "Eh tapi staff kami masih kerja kok, customer service ZenMarket selalu tersedia sepanjang tahun.",
             "th": "แต่ฝ่ายบริการลูกค้า ZenMarket ยังทำงานอยู่นะ",
-            "it": "Ma non noi! Il servizio clienti di ZenMarket è diponibile tutto l'anno."
+            "it": "Ma noi no! Il servizio clienti di ZenMarket è diponibile tutto l'anno."
           },
           "image_url": "img/2.png",
           "image_left": false
@@ -365,7 +365,7 @@
             "de": "Lunas scheint diese Seite weggezaubert zu haben, aber wir arbeiten daran, sie zurückzubekommen.",
             "id": "Wah sulap Luna ga sengaja bikin halaman ini hilang. Semoga dia bisa cepet benerin lagi ya.",
             "th": "เวทมนตร์ของลูน่าทำให้หน้าเว็บนี้หายไป แต่เรากำลังพยายามเอามันกลับมาอยู่นะ",
-            "it": "Sembra proprio che la magia di Luna abbia fatto sparire questa pagina, ma stiamo lavorando per riportala indietro."
+            "it": "Sembra proprio che la magia di Luna abbia fatto sparire questa pagina, ma stiamo lavorando per riportarla indietro."
           },
           "image_url": "img/7.png",
           "image_left": true
@@ -441,7 +441,7 @@
             "de": "Lunas Halloween-Kostüm war dieses Jahr so gut, dass es diese Seite verschreckt hat.",
             "id": "Halaman ini kabur ketakutan ngeliat Luna pakai kostum Halloween, udah ga mau balik dia.",
             "th": "ชุดฮัลโลวีนของลูน่าสมจริงซะจนทำให้หน้าเว็บนี้กลัวจนหนีไปแล้ว",
-            "it": "Il custume di Halloween di Luna è così terrificante quest'anno, che ha messo in fuga questa pagina."
+            "it": "Il costume di Halloween di Luna è così terrificante quest'anno che ha messo in fuga questa pagina."
           },
           "image_url": "img/9.png",
           "image_left": true
