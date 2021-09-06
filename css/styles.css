@@ -56,7 +56,7 @@
 }
 
 .page404 p {
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 20px;
     line-height: 140%;
 }
@@ -167,6 +167,6 @@
     .page404 .row {
         flex-direction: column !important;
     }
-    .page404 h2{ font-size:1em }
+    .page404 h2{ font-size:1em;font-weight: bold; }
     .page404 h1{ font-size:2em }
 }
