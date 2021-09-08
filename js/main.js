@@ -72,5 +72,6 @@ $(document).ready(function () {
     .fail(function () {
       // console.log("No JSON :(")
       $(".page404 .wrapper").fadeIn(600);
+      $("#heroimage").attr("src", "img/1.png");
     })
 })
